@@ -42,3 +42,12 @@ class CubeMaker extends CuboidMaker {
         return this.length * 6;
     }
 }
+
+const cube = new CubeMaker ({
+    length: 5,
+    width: 5,
+    height: 5,
+  })
+
+// console.log(cube.volumeCube()); // 125
+// console.log(cube.surfaceAreaCube()); // 30
